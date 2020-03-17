@@ -1,0 +1,11 @@
+C:\Users\axelt\Documents\2 - Études\M1 IM\S2\Innovation Recherche\RechercheDichotomie\bin\Debug\RechercheDichotomie.exe.config
+C:\Users\axelt\Documents\2 - Études\M1 IM\S2\Innovation Recherche\RechercheDichotomie\bin\Debug\RechercheDichotomie.exe
+C:\Users\axelt\Documents\2 - Études\M1 IM\S2\Innovation Recherche\RechercheDichotomie\bin\Debug\RechercheDichotomie.pdb
+C:\Users\axelt\Documents\2 - Études\M1 IM\S2\Innovation Recherche\RechercheDichotomie\bin\Debug\RechercheDichotomie.xml
+C:\Users\axelt\Documents\2 - Études\M1 IM\S2\Innovation Recherche\RechercheDichotomie\obj\Debug\RechercheDichotomie.vbprojAssemblyReference.cache
+C:\Users\axelt\Documents\2 - Études\M1 IM\S2\Innovation Recherche\RechercheDichotomie\obj\Debug\RechercheDichotomie.Form1.resources
+C:\Users\axelt\Documents\2 - Études\M1 IM\S2\Innovation Recherche\RechercheDichotomie\obj\Debug\RechercheDichotomie.Resources.resources
+C:\Users\axelt\Documents\2 - Études\M1 IM\S2\Innovation Recherche\RechercheDichotomie\obj\Debug\RechercheDichotomie.vbproj.GenerateResource.cache
+C:\Users\axelt\Documents\2 - Études\M1 IM\S2\Innovation Recherche\RechercheDichotomie\obj\Debug\RechercheDichotomie.exe
+C:\Users\axelt\Documents\2 - Études\M1 IM\S2\Innovation Recherche\RechercheDichotomie\obj\Debug\RechercheDichotomie.xml
+C:\Users\axelt\Documents\2 - Études\M1 IM\S2\Innovation Recherche\RechercheDichotomie\obj\Debug\RechercheDichotomie.pdb
