@@ -56,24 +56,25 @@
     Private Sub btnRecherche_Click(sender As Object, e As EventArgs) Handles btnRecherche.Click
         Dim position As Integer
         Dim message As String
-        Dim t_debut, t_fin As Integer
-        Dim tempsExecution As Integer
+
+        'Pour le calcul du temps d'exécution
+        Dim chronometre As System.Diagnostics.Stopwatch
+        chronometre = New Stopwatch
 
         For i = 0 To listeBouton.Length - 1
             listeBouton(i).BackColor = Color.Transparent
         Next
 
         If cbRecherche.Text = "Recherche par dichotomie" Then
-            t_debut = System.DateTime.Now.Millisecond 'Donne le temps actuel en milliseconde
+            chronometre.Start() 'Démarre le chronomètre
             position = InnovationRecherche.RechercheDichotomique(CInt(tbRecherche.Text))
-            t_fin = System.DateTime.Now.Millisecond 'Donne le temps actuel en milliseconde
+            chronometre.Stop() 'Arrête le chronomètre
         Else
-            t_debut = System.DateTime.Now.Millisecond 'Donne le temps actuel en milliseconde
+            chronometre.Start() 'Démarre le chronomètre
             position = InnovationRecherche.RechercheSequentielle(CInt(tbRecherche.Text))
-            t_fin = System.DateTime.Now.Millisecond 'Donne le temps actuel en milliseconde
+            chronometre.Stop() 'Arrête le chronomètre
         End If
 
-        tempsExecution = t_fin - t_debut
         message = ""
         If position < 0 Then
             message += "Le nombre " + CStr(InnovationRecherche.element) +
@@ -88,8 +89,8 @@
 
         lblMessage.Text = message
         lblTempsExecution.Text = "Terminé en " +
-            tempsExecution.ToString() +
-            "ms."
+            (chronometre.Elapsed.TotalMilliseconds * 10 ^ 6).ToString() +
+            " ns."
     End Sub
 
     Private Sub btnInitialisationListener(sender As Object, e As EventArgs) _
