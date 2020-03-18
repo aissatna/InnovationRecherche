@@ -96,7 +96,7 @@
     Private Sub btnInitialisationListener(sender As Object, e As EventArgs) _
         Handles tbTaille.TextChanged, tbMin.TextChanged, tbMax.TextChanged
         If IsNumeric(tbTaille.Text) And IsNumeric(tbMin.Text) And IsNumeric(tbMax.Text) Then 'Que des nombres
-            If CInt(tbTaille.Text) >= 1 And CInt(tbTaille.Text) <= 76 _
+            If CInt(tbTaille.Text) >= 1 And CInt(tbTaille.Text) <= 216 _
                 And CInt(tbMax.Text) < 1000 _
                 And CInt(tbMin.Text) < 999 _
                 And CInt(tbMax.Text) >= CInt(tbMin.Text) Then 'Règle de définitions
@@ -121,6 +121,4 @@
             btnRecherche.Enabled = False
         End If
     End Sub
-
-
 End Class
