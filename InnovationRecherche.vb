@@ -132,7 +132,7 @@
     '-1 pour le cas échéant (ne se trouve pas dans la liste)
     Public Function RechercheSequentielle(ByVal element As Integer) As Integer
         InnovationRecherche.element = element
-        'Écrire le code sur la recherche séquentielle ici :D
+
         Dim trouveElement As Boolean = False
         Dim i As Integer = 0
         Dim indiceElement As Integer = -1
@@ -144,6 +144,7 @@
                 i += 1
             End If
         End While
+
         Return indiceElement
     End Function
 End Module
