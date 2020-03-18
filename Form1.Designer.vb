@@ -52,18 +52,18 @@ Partial Class Form1
         Me.Label1.Location = New System.Drawing.Point(8, 23)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(239, 25)
+        Me.Label1.Size = New System.Drawing.Size(169, 16)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Nombre d'éléments (1-76)"
+        Me.Label1.Text = "Nombre d'éléments (1-216)"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(442, 23)
+        Me.Label2.Location = New System.Drawing.Point(568, 23)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(172, 25)
+        Me.Label2.Size = New System.Drawing.Size(111, 16)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Maximum (<1000)"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -71,10 +71,10 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(257, 23)
+        Me.Label3.Location = New System.Drawing.Point(331, 23)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(155, 25)
+        Me.Label3.Size = New System.Drawing.Size(100, 16)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Minimum (<999)"
         Me.Label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -93,14 +93,14 @@ Partial Class Form1
         Me.GroupBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox1.Size = New System.Drawing.Size(764, 57)
+        Me.GroupBox1.Size = New System.Drawing.Size(956, 57)
         Me.GroupBox1.TabIndex = 3
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Initialisation de la liste"
         '
         'btnInitialisation
         '
-        Me.btnInitialisation.Location = New System.Drawing.Point(637, 17)
+        Me.btnInitialisation.Location = New System.Drawing.Point(829, 17)
         Me.btnInitialisation.Margin = New System.Windows.Forms.Padding(4)
         Me.btnInitialisation.Name = "btnInitialisation"
         Me.btnInitialisation.Size = New System.Drawing.Size(119, 28)
@@ -110,26 +110,26 @@ Partial Class Form1
         '
         'tbMax
         '
-        Me.tbMax.Location = New System.Drawing.Point(557, 20)
+        Me.tbMax.Location = New System.Drawing.Point(683, 20)
         Me.tbMax.Margin = New System.Windows.Forms.Padding(4)
         Me.tbMax.Name = "tbMax"
-        Me.tbMax.Size = New System.Drawing.Size(72, 30)
+        Me.tbMax.Size = New System.Drawing.Size(72, 22)
         Me.tbMax.TabIndex = 5
         '
         'tbMin
         '
-        Me.tbMin.Location = New System.Drawing.Point(356, 20)
+        Me.tbMin.Location = New System.Drawing.Point(430, 20)
         Me.tbMin.Margin = New System.Windows.Forms.Padding(4)
         Me.tbMin.Name = "tbMin"
-        Me.tbMin.Size = New System.Drawing.Size(78, 30)
+        Me.tbMin.Size = New System.Drawing.Size(78, 22)
         Me.tbMin.TabIndex = 4
         '
         'tbTaille
         '
-        Me.tbTaille.Location = New System.Drawing.Point(171, 20)
+        Me.tbTaille.Location = New System.Drawing.Point(185, 20)
         Me.tbTaille.Margin = New System.Windows.Forms.Padding(4)
         Me.tbTaille.Name = "tbTaille"
-        Me.tbTaille.Size = New System.Drawing.Size(80, 30)
+        Me.tbTaille.Size = New System.Drawing.Size(80, 22)
         Me.tbTaille.TabIndex = 3
         '
         'GroupBox3
@@ -139,7 +139,7 @@ Partial Class Form1
         Me.GroupBox3.Controls.Add(Me.Label5)
         Me.GroupBox3.Controls.Add(Me.tbRecherche)
         Me.GroupBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox3.Location = New System.Drawing.Point(16, 279)
+        Me.GroupBox3.Location = New System.Drawing.Point(16, 470)
         Me.GroupBox3.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Padding = New System.Windows.Forms.Padding(4)
@@ -154,7 +154,7 @@ Partial Class Form1
         Me.cbRecherche.Items.AddRange(New Object() {"Recherche séquentielle", "Recherche par dichotomie"})
         Me.cbRecherche.Location = New System.Drawing.Point(11, 27)
         Me.cbRecherche.Name = "cbRecherche"
-        Me.cbRecherche.Size = New System.Drawing.Size(224, 33)
+        Me.cbRecherche.Size = New System.Drawing.Size(224, 24)
         Me.cbRecherche.TabIndex = 9
         '
         'btnRecherche
@@ -173,7 +173,7 @@ Partial Class Form1
         Me.Label5.Location = New System.Drawing.Point(12, 64)
         Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(197, 25)
+        Me.Label5.Size = New System.Drawing.Size(135, 16)
         Me.Label5.TabIndex = 4
         Me.Label5.Text = "Élement à rechercher"
         Me.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -183,7 +183,7 @@ Partial Class Form1
         Me.tbRecherche.Location = New System.Drawing.Point(155, 61)
         Me.tbRecherche.Margin = New System.Windows.Forms.Padding(4)
         Me.tbRecherche.Name = "tbRecherche"
-        Me.tbRecherche.Size = New System.Drawing.Size(80, 30)
+        Me.tbRecherche.Size = New System.Drawing.Size(80, 22)
         Me.tbRecherche.TabIndex = 3
         '
         'GroupBox5
@@ -193,11 +193,11 @@ Partial Class Form1
         Me.GroupBox5.Controls.Add(Me.Label6)
         Me.GroupBox5.Controls.Add(Me.Label4)
         Me.GroupBox5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox5.Location = New System.Drawing.Point(288, 279)
+        Me.GroupBox5.Location = New System.Drawing.Point(288, 470)
         Me.GroupBox5.Margin = New System.Windows.Forms.Padding(4)
         Me.GroupBox5.Name = "GroupBox5"
         Me.GroupBox5.Padding = New System.Windows.Forms.Padding(4)
-        Me.GroupBox5.Size = New System.Drawing.Size(492, 127)
+        Me.GroupBox5.Size = New System.Drawing.Size(684, 127)
         Me.GroupBox5.TabIndex = 7
         Me.GroupBox5.TabStop = False
         Me.GroupBox5.Text = "Résultat de la recherche"
@@ -207,7 +207,7 @@ Partial Class Form1
         Me.lblTempsExecution.AutoSize = True
         Me.lblTempsExecution.Location = New System.Drawing.Point(152, 80)
         Me.lblTempsExecution.Name = "lblTempsExecution"
-        Me.lblTempsExecution.Size = New System.Drawing.Size(27, 25)
+        Me.lblTempsExecution.Size = New System.Drawing.Size(17, 16)
         Me.lblTempsExecution.TabIndex = 3
         Me.lblTempsExecution.Text = "..."
         '
@@ -216,7 +216,7 @@ Partial Class Form1
         Me.lblMessage.AutoSize = True
         Me.lblMessage.Location = New System.Drawing.Point(152, 40)
         Me.lblMessage.Name = "lblMessage"
-        Me.lblMessage.Size = New System.Drawing.Size(27, 25)
+        Me.lblMessage.Size = New System.Drawing.Size(17, 16)
         Me.lblMessage.TabIndex = 2
         Me.lblMessage.Text = "..."
         '
@@ -225,7 +225,7 @@ Partial Class Form1
         Me.Label6.AutoSize = True
         Me.Label6.Location = New System.Drawing.Point(24, 80)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(177, 25)
+        Me.Label6.Size = New System.Drawing.Size(122, 16)
         Me.Label6.TabIndex = 1
         Me.Label6.Text = "Temps d'exécution"
         '
@@ -234,7 +234,7 @@ Partial Class Form1
         Me.Label4.AutoSize = True
         Me.Label4.Location = New System.Drawing.Point(81, 40)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(93, 25)
+        Me.Label4.Size = New System.Drawing.Size(65, 16)
         Me.Label4.TabIndex = 0
         Me.Label4.Text = "Message"
         '
@@ -245,16 +245,16 @@ Partial Class Form1
         Me.gbListe.Margin = New System.Windows.Forms.Padding(4)
         Me.gbListe.Name = "gbListe"
         Me.gbListe.Padding = New System.Windows.Forms.Padding(4)
-        Me.gbListe.Size = New System.Drawing.Size(764, 191)
+        Me.gbListe.Size = New System.Drawing.Size(956, 382)
         Me.gbListe.TabIndex = 8
         Me.gbListe.TabStop = False
         Me.gbListe.Text = "Liste"
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(12.0!, 25.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(793, 419)
+        Me.ClientSize = New System.Drawing.Size(986, 610)
         Me.Controls.Add(Me.gbListe)
         Me.Controls.Add(Me.GroupBox5)
         Me.Controls.Add(Me.GroupBox3)

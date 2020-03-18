@@ -106,7 +106,7 @@
 
     'Effectue une recherche par dichotomie
     Public Function RechercheDichotomique(ByVal debut As Integer, ByVal fin As Integer) As Integer
-        Dim longueurListe = (fin + 1) - (debut + 1)
+        Dim longueurListe = fin - debut + 1
         Dim mediane As Integer
 
         If longueurListe < 0 Then
@@ -114,10 +114,14 @@
         End If
 
         If longueurListe Mod 2 = 0 Then
-            mediane = longueurListe / 2 + debut
+            mediane = longueurListe / 2 + debut - 1
         Else
-            mediane = CInt(longueurListe / 2) + 1 + debut
+            mediane = CInt(longueurListe / 2) + 1 + debut - 1
         End If
+
+        'AfficherListe(debut, fin)
+        'Console.WriteLine("N = " + longueurListe.ToString + " | L[" + (mediane - debut + 1).ToString + "] = " +
+        'liste(mediane).ToString + " | x = " + InnovationRecherche.element.ToString)
 
         If InnovationRecherche.element = liste(mediane) Then
             Return mediane
